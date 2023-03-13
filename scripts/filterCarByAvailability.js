@@ -1,17 +1,17 @@
 function filterCarByAvailability(cars) {
   // Sangat dianjurkan untuk console.log semua hal hehe
-  console.log(cars);
+  console.log("Raw Data: ", cars);
 
   // Tempat penampungan hasil
   const result = [];
 
   // Tulis code-mu disini
-  for(let i = 0; i < cars.length; i++){
-    if(cars[i].avalaible === true){
+  for (let i = 0; i < cars.length; i++) {
+    if(cars[i].available === true){ 
       result.push(cars[i]);
     }
   }
   // Rubah code ini dengan array hasil filter berdasarkan availablity
-  console.table(result);
+  console.table("Available is true: ", result);
   return result;
 }
