@@ -1,6 +1,6 @@
 function filterCarByAvailability(cars) {
   // Sangat dianjurkan untuk console.log semua hal hehe
-  console.log("Raw Data: ", cars);
+  console.log("Raw Data:", cars);
 
   // Tempat penampungan hasil
   const result = [];
