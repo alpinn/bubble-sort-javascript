@@ -1,6 +1,6 @@
 function sortCarByYearAscendingly(cars) {
   // Sangat dianjurkan untuk console.log semua hal hehe
-  console.log("Before: ", cars);
+  console.log("Before:", cars);
 
   // Clone array untuk menghindari side-effect
   // Apa itu side effect?
